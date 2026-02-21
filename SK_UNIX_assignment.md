@@ -136,9 +136,9 @@ I followed these steps for data processing:
 
 7. Splited by chromosome using `awk` and sorted by increasing and decreasing position using `sort`.
 
-8. Encoded the missing data ?/? with the symbol (?) for the increasing position values files and symbol (-) for the decreasing position files.
+8. Generated 22 output files. 1 for unknown positions, 1 for multiple positions, 10 for the ten chromosomes ordered based on increasing position values, and 10 for the ten chromosomes ordered based on decreasing position values.
 
-9. Generated 22 output files. 1 for unknown positions, 1 for multiple positions, 10 for the ten chromosomes ordered based on increasing position values, and 10 for the ten chromosomes ordered based on decreasing position values. 
+9. Encoded the missing data ?/? with the symbol (?) for the increasing position values files and symbol (-) for the decreasing position files.
 
 
 
@@ -212,6 +212,7 @@ Followed the exact steps followed in the maize file part.
 
 7. Splited by chromosome using `awk` and sorted by increasing and decreasing position using `sort`.
 
-8. Encoded the missing data ?/? with the symbol (?) for the increasing position values files and symbol (-) for the decreasing position files.
+8. Generated 22 output files. 1 for unknown positions, 1 for multiple positions, 10 for the ten chromosomes ordered based on increasing position values, and 10 for the ten chromosomes ordered based on decreasing position values.
+   
+9. Encoded the missing data ?/? with the symbol (?) for the increasing position values files and symbol (-) for the decreasing position files.
 
-9. Generated 22 output files. 1 for unknown positions, 1 for multiple positions, 10 for the ten chromosomes ordered based on increasing position values, and 10 for the ten chromosomes ordered based on decreasing position values.
